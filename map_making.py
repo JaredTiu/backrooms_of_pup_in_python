@@ -39,3 +39,5 @@ def main(size):
                 count += 1
 
     return x_pos, y_pos, rotation, map, x_exit, y_exit
+
+print("code ran successfully!")
