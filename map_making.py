@@ -15,3 +15,12 @@ def main(size):
     y = int(y_pos)
     
     map[x][y] = 0
+
+    count = 0 
+    while True: 
+        x_test = x
+        y_test = y
+        if np.random.choice(np.array([True, False])):
+            x_test += np.random.choice(np.array([-1, 1]))
+        else: 
+            y_test += np.random.choice(np.array([-1, 1]))
